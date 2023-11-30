@@ -1,6 +1,5 @@
 # Parallel Search of Articulation Points
-The Java program that uses Apache Spark to parallelize search of the Articulation Points in the graph using Bread-First-Search (BFS) and brute-force algorithms
-
+This is the program, written on Java, that searches for articulation points in the graph using Bread-First-Search (BFS) and brute-force algorithms. It makes a use of Apache Spark to parallelize this searching task among remote computing nodes.
 
 <div class="img-with-text">
     <p>Initial graph:</p>
