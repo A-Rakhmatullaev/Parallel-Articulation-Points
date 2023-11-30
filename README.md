@@ -3,7 +3,7 @@ The Java program that uses Apache Spark to parallelize search of the Articulatio
 
 ## Theory of articulation points
 
-## Theory of Brute-Force algorithm
+## Theory of brute-force algorithm
 
 ## Explanation of general algorithm
 
