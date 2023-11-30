@@ -7,7 +7,7 @@ This is the program, written in Java, that searches for articulation points in t
 </div>
 
 ## Theory of articulation points
-Articulation points are the nodes of the graph such that, when removed, cause a fission of the graph into two or more unconnected, non-linked graphs.
+Articulation points are the vertices of the graph such that, when removed, cause a fission of the graph into two or more unconnected, non-linked graphs.
 
 <div class="img-with-text">
     <p>Articulation points in the graph (marked with green color):</p>
@@ -32,8 +32,16 @@ What are articulation points and where are they used?
 
 
 ## Theory of brute-force algorithm
+Brute-force algorithm suggests that, in order to find an articulation point, program should pick each vertex in the graph, remove it from the graph, and check if the graph would still stay connected. Brute-force algorithm is more resource and time consuming, compared to Tarjan's algorithm, and has an overall complexity of O(V * (V + E)).
+
+Explain brute-force algorithm to find articulation points!
 
 ## Explanation of general algorithm
+The general algorithm of the program is quite straightforward. First, we get the input file and map its data to the proper usable form. In this case, this program just sorts and then sorts edge data in form of JavaPairRDD <Tuple2 <Integer, List <Integer>>, where the key in the tuple is vertex ID, and the list contains information as either 0 or 1, to indicate if this vertex is connected to other vertex with id matching index in the list.
+
+For example, if there is 1 in 36th element of the list, it means, that the vertex in the key, has an edge with vertex which has an ID of 36.
+
+After that, the program maps each element from initial JavaPairRDD to another new JavaPairRDD of the same type parameter of Tuple2 <Integer, List <Integer>. However, now list of integers will include the list of IDs of all vertices that have been visited. This is the part, where program implements both BFS and brute-force algorithms. Inside of 'map' function, program makes a list of visited vertices using 'bfs' function and considers that the current tuple's key, which is vertex ID, will not be taken into account for the BFS. It ensures, that it can get list of visited nodes when this vertex is removed from the graph. This is needed, when after mapping all tuples, it can check, if the list size of visited vertices is not equal to number of all vertices - 1. If yes, then it can say that this vertex is an articulation point. 
 
 ## Results and benchmarks
 
