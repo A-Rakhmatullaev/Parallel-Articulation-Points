@@ -37,7 +37,7 @@ Brute-force algorithm suggests that, in order to find an articulation point, pro
 Explain brute-force algorithm to find articulation points!
 
 ## Explanation of general algorithm
-The general algorithm of the program is quite straightforward. First, we get the input file and map its data to the proper usable form. In this case, this program just sorts and then sorts edge data in form of JavaPairRDD <Tuple2 <Integer, List <Integer>>, where the key in the tuple is vertex ID, and the list contains information as either 0 or 1, to indicate if this vertex is connected to other vertex with id matching index in the list.
+The general algorithm of the program is quite straightforward. First, the program gets the input file and map its data to the proper usable form. In this case, this program just sorts and then sorts edge data in form of JavaPairRDD <Tuple2 <Integer, List <Integer>>, where the key in the tuple is vertex ID, and the list contains information as either 0 or 1, to indicate if this vertex is connected to other vertex with id matching index in the list.
 
 For example, if there is 1 in 36th element of the list, it means, that the vertex in the key, has an edge with vertex which has an ID of 36.
 
