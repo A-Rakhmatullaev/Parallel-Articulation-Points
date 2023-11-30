@@ -8,3 +8,5 @@ The Java program that uses Apache Spark to parallelize search of the Articulatio
 ## Explanation of general algorithm
 
 ## Results and benchmarks
+
+## License
