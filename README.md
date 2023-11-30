@@ -19,10 +19,14 @@ Articulation points are the nodes of the graph such that, when removed, cause a 
     <img src="https://github.com/A-Rakhmatullaev/Parallel-Articulation-Points/blob/main/readme/b_removed.png" alt="b_removed" width="420" height="300"/>
 </div>
 
+As you can see from this example, the initial graph gets divided into three unconnected graphs.
+
 <div class="img-with-text">
     <p>Example if node 'D' is removed:</p>
     <img src="https://github.com/A-Rakhmatullaev/Parallel-Articulation-Points/blob/main/readme/d_removed.png" alt="d_removed" width="420" height="300"/>
 </div>
+
+As you can see from this example, the initial graph gets divided into two unconnected graphs.
 
 What are articulation points and where are they used?
 
