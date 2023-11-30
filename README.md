@@ -7,6 +7,15 @@ This is the program, written on Java, that searches for articulation points in t
 </div>
 
 ## Theory of articulation points
+Articulation points are the nodes of the graph, when removed, cause a fission of the graph into two or more unconnected, non-linked graphs.
+
+<div class="img-with-text">
+    <p>Articulation points in the graph (marked with green color):</p>
+    <img src="https://github.com/A-Rakhmatullaev/Parallel-Articulation-Points/blob/main/readme/initial_points.png" alt="initial" width="420" height="300"/>
+</div>
+
+What are articulation points and where are they used?
+
 
 ## Theory of brute-force algorithm
 
