@@ -34,8 +34,6 @@ What are articulation points and where are they used?
 ## Theory of brute-force algorithm
 Brute-force algorithm suggests that, in order to find an articulation point, program should pick each vertex in the graph, remove it from the graph, and check if the graph would still stay connected. Brute-force algorithm is more resource and time consuming, compared to Tarjan's algorithm, and has an overall complexity of O(V * (V + E)).
 
-Explain brute-force algorithm to find articulation points!
-
 ## Explanation of general algorithm
 The general algorithm of the program is quite straightforward. First, the program gets the input file and map its data to the proper usable form. In this case, this program just sorts and then stores edge data in form of JavaPairRDD < Tuple2 < Integer, List < Integer > > >, where the key in the tuple is vertex ID, and the list contains information as either 0 or 1, to indicate if this vertex is connected to other vertex with id matching index in the list.
 
