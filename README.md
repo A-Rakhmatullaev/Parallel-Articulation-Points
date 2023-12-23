@@ -45,11 +45,8 @@ After that, the program maps each element from initial JavaPairRDD to another ne
 
 ## Results and benchmarks
 Here is the table that demonstrates execution time of the program with 1000, 2000 and 4000 vertices:
-<tr>
-  <td>Hi, I'm your first cell.</td>
-  <td>I'm your second cell.</td>
-  <td>I'm your third cell.</td>
-  <td>I'm your fourth cell.</td>
-</tr>
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
 
 ## License
