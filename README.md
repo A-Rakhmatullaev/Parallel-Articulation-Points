@@ -56,6 +56,6 @@ This code is distributed under GPLv3
 
 > Copyright (C) 2023-2024 Akbarbek Rakhmatullaev [[Linkedin](https://www.linkedin.com/in/a-rakhmatullaev/)].
 > 
-> This program is free software.
+> This program is a free software.
 > You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
 > For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
