@@ -28,9 +28,6 @@ As you can see from this example, the initial graph gets divided into three unco
 
 As you can see from this example, the initial graph gets divided into two unconnected graphs.
 
-What are articulation points and where are they used?
-
-
 ## Theory of brute-force algorithm
 Brute-force algorithm suggests that, in order to find an articulation point, program should pick each vertex in the graph, remove it from the graph, and check if the graph would still stay connected. Brute-force algorithm is more resource and time consuming, compared to Tarjan's algorithm, and has an overall complexity of O(V * (V + E)).
 
