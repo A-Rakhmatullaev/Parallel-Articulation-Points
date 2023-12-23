@@ -45,7 +45,7 @@ After that, the program maps each element from initial JavaPairRDD to another ne
 
 ## Results and benchmarks
 Here is the table that demonstrates execution time of the program with 1000, 2000 and 4000 vertices:
-| Attempt | #1    | #2    |
+| Number of Vertices | #1    | #2    |
 | :---:   | :---: | :---: |
 | Seconds | 301   | 283   |
 
