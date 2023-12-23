@@ -44,9 +44,9 @@ For example, if there is 1 in 36th element of the list, it means, that the verte
 After that, the program maps each element from initial JavaPairRDD to another new JavaPairRDD of the same type parameter of Tuple2 <Integer, List <Integer> >. However, now list of integers will include the list of IDs of all vertices that have been visited. This is the part, where program implements both BFS and brute-force algorithms. Inside of 'map' function, program makes a list of visited vertices using 'bfs' function and considers that the current tuple's key, which is vertex ID, will not be taken into account for the BFS. It ensures, that it can get list of visited nodes when this vertex is removed from the graph. This is needed, when after mapping all tuples, it can check, if the list size of visited vertices is not equal to number of all vertices - 1. If yes, then it can say that this vertex is an articulation point. 
 
 ## Results and benchmarks
-Here is the table that demonstrates execution time of the program with 1000, 2000 and 4000 vertices:
-| Number of Vertices | #1    | #2    |
-| :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+Here is the table that demonstrates execution time of the program running on 4 computing nodes with 1000, 2000 and 4000 vertices:
+| Number of Vertices | 1000    | 2000    | 4000    |
+| :---:              | :---:   | :---:   | :---:   |
+| Seconds            | 1.106   | 7.566   | 22.637  |
 
 ## License
