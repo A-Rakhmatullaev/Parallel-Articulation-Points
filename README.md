@@ -52,3 +52,10 @@ Here is the table that demonstrates execution time of the program running on 4 c
 Considering that program operates with edge information of the each vertex with all other vertices, it forms a matrix, meaning that program actually handles not just 1000 vertices, but 1 000 000 objects in case of 1000x1000 matrix.
 
 ## License
+The code is distributed under GPL v3
+
+> Copyright (C) 2023-2024 Akbarbek Rakhmatullaev [(linkedin.com/in/a-rakhmatullaev/)]
+> 
+> This program is free software; you can redistribute it and/or modify
+> it under the terms of the GNU General Public License as published by
+> the Free Software Foundation; either version 3 of the License.
