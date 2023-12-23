@@ -54,8 +54,8 @@ Considering that program operates with edge information of the each vertex with 
 ## License
 The code is distributed under GPL v3
 
-> Copyright (C) 2023-2024 Akbarbek Rakhmatullaev [linkedin.com/in/a-rakhmatullaev/]
+> Copyright (C) 2023-2024 Akbarbek Rakhmatullaev <linkedin.com/in/a-rakhmatullaev/>
 > 
-> This program is free software; you can redistribute it and/or modify
-> it under the terms of the GNU General Public License as published by
-> the Free Software Foundation; either version 3 of the License.
+> This program is free software.
+> You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
+> For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
